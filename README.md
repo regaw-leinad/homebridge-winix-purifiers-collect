@@ -12,7 +12,7 @@ the steps below to clone, set up, and run the tool to contribute data.
   the state after each action. You can also skip any action if it is not applicable.
 - **Step 3**: You can add custom actions if needed to ensure all functionalities are covered.
 - **Step 4**: At the end, the tool will provide a JSON payload with all recorded data.
-- **Step 5**: Create a new issue in this repository and attach the JSON payload from the script. This will help us
+- **Step 5**: Create a new issue in this repository and attach the JSON payload from the script. This will help me
   manage new data contributions effectively.
 
 ## Prerequisites

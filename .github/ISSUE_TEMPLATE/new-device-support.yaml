@@ -1,0 +1,25 @@
+name: Winix Device Support
+description: Request support for a new Winix device.
+body:
+  - type: textarea
+    attributes:
+      label: Device Model
+      description: Please provide the model of the Winix purifier you would like to add support for.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Data Collection
+      description: |
+        - Paste in the JSON payload generated from running the data collection script.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: |
+        - Provide any additional information that may be helpful in adding support for this device
+    validations:
+      required: false

@@ -17,7 +17,7 @@ the steps below to clone, set up, and run the tool to contribute data.
 
 ## Prerequisites
 
-- Node.js (version 14 or higher recommended)
+- Node.js (version 18 or higher recommended)
 - npm or Yarn package manager
 
 ## Getting Started

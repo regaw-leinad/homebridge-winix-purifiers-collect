@@ -45,7 +45,24 @@ npm install
 yarn
 ```
 
-### 3. Run the Data Collection Script
+### 3. Find Your Device ID
+
+To find your Device ID, follow these steps:
+
+1. Open the **Winix Purifiers plugin config** in Homebridge.
+2. Click the **"Configure Devices ->"** button.
+   <br><img src="img/step1.png" alt="Configure Devices Button" width="400">
+3. Select the tab for the purifier you want to collect data for.
+4. Fill in one of the text boxes, such as the **"Name"** field to make an override.
+   <br><img src="img/step2.png" alt="Select Purifier Tab and Override Name" width="400">
+5. Click the **"Save All"** button to close the device configure section.
+6. Click **Save** to close the plugin config.
+7. Press the **...** menu on the plugin and click the **"JSON Config"** menu option.
+   <br><img src="img/step3.png" alt="JSON Config Menu" width="500">
+8. Find and copy your **deviceId** in the JSON payload under the `deviceOverrides` section.
+   <br><img src="img/step4.png" alt="Device ID in JSON Payload" width="500">
+
+### 4. Run the Data Collection Script
 
 To run the data collection script, use the following command with your device ID:
 
@@ -62,23 +79,6 @@ yarn collect <deviceId>
 ```
 
 > **Note**: You will need to provide the `deviceId` as an argument to the command.
-
-### 4. Getting Your Device ID
-
-To get your Device ID, follow these steps:
-
-1. Open the **Winix Purifiers plugin config** in Homebridge.
-2. Click the **"Configure Devices ->"** button.
-   <br><img src="img/step1.png" alt="Configure Devices Button" width="400">
-3. Select the tab for the purifier you want to collect data for.
-4. Fill in one of the text boxes, such as the **"Name"** field to make an override.
-   <br><img src="img/step2.png" alt="Select Purifier Tab and Override Name" width="400">
-5. Click the **"Save All"** button to close the device configure section.
-6. Click **Save** to close the plugin config.
-7. Press the **...** menu on the plugin and click the **"JSON Config"** menu option.
-   <br><img src="img/step3.png" alt="JSON Config Menu" width="500">
-8. Find and copy your **deviceId** in the JSON payload under the `deviceOverrides` section.
-   <br><img src="img/step4.png" alt="Device ID in JSON Payload" width="500">
 
 ### 5. Create a New Issue
 

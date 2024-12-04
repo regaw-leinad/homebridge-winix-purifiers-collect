@@ -13,7 +13,7 @@ body:
       label: Data Collection
       description: |
         - Paste in the JSON payload generated from running the data collection script.
-        - Preferably, wrap the payload in a json code block (```json ... ```)
+        - Preferably, wrap the payload in a json code block (triple backticks).
     validations:
       required: true
 

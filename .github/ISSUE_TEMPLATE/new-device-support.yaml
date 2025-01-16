@@ -14,6 +14,10 @@ body:
       description: |
         - Paste in the JSON payload generated from running the data collection script.
         - Preferably, wrap the payload in a json code block (triple backticks).
+      value: |
+        ```json
+        
+        ```
     validations:
       required: true
 
